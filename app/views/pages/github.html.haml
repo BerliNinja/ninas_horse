@@ -1,0 +1,65 @@
+.container
+  .jumbotron
+    %center
+      %h1.purple Hello, UnboxedConsulting!
+      %p This is my solution of your Task Number 01
+      %p Please insert your Github-Name here:
+      = form_tag("https://api.github.com/users/", method: "get") do
+        = label_tag(:name, "Search for:")
+        = text_field_tag(:name)
+        = submit_tag("Submit")
+      %a.btn.btn-default{:href => "/horse"} Task Number 02
+      %a.btn.btn-info{:href => '#intern'} Do you like it?
+.container
+  .jumbotron
+    #search
+      %form{action:"/languages", method:"post"}
+        %input{type:"text", name: 'username',placeholder: "Github Username"}
+
+
+
+.container
+  .row
+    .col-md-3
+      %h3.purple
+        Intern Me!
+      %p Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me!
+      %a.btn.btn-default{:href => "http://aboutnina.herokuapp.com", target: "blank"} Read More
+    .col-md-3
+      %h3.purple
+        Intern Me!
+      %p Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me!
+      %a.btn.btn-default{:href => "http://aboutnina.herokuapp.com", target: "blank"} Read More
+    .col-md-3
+      %h3.purple
+        Intern Me!
+      %p Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me!
+      %a.btn.btn-default{:href => "http://aboutnina.herokuapp.com", target: "blank"} Read More
+    .col-md-3
+      %h3.purple
+        Intern Me!
+      %p Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me!
+      %a.btn.btn-default{:href => "http://aboutnina.herokuapp.com", target: "blank"} Read More
+#intern.section
+.container
+  .row
+    .col-md-3
+      %h3.purple
+        Intern Me!
+      %p Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me!
+      %a.btn.btn-default{:href => "http://aboutnina.herokuapp.com", target: "blank"} Read More
+    .col-md-3
+      %h3.purple
+        Intern Me!
+      %p Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me!
+      %a.btn.btn-default{:href => "http://aboutnina.herokuapp.com", target: "blank"} Read More
+    .col-md-3
+      %h3.purple
+        Intern Me!
+      %p Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me!
+      %a.btn.btn-default{:href => "http://aboutnina.herokuapp.com", target: "blank"} Read More
+    .col-md-3
+      %h3.purple
+        Intern Me!
+      %p Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me! Intern Me!
+      %a.btn.btn-default{:href => "http://aboutnina.herokuapp.com", target: "blank"} Read More
