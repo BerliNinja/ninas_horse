@@ -1,0 +1,83 @@
+/* line 1, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.navbar.navbar-inverse {
+  background-color: #812a80;
+  /* purple */
+  border-bottom: 1px solid #812a80;
+}
+
+/* line 6, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.navbar.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+/* line 10, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.navbar.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+/* line 13, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.navbar.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a {
+  background-color: #f2f2f2;
+}
+
+/* line 17, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.navbar.navbar-inverse .navbar-nav > .active > a {
+  color: black;
+}
+
+/* line 21, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.container .row h3.purple {
+  color: #812a80;
+}
+
+/* line 25, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+html body {
+  margin-bottom: 80px;
+}
+
+/* line 29, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.jumbotron h1.purple {
+  color: #812a80;
+}
+
+/* line 33, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.horse img {
+  width: 50px;
+  height: 50px;
+  margin: 0 0 10px 10px;
+}
+
+/* line 39, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.heading {
+  font-weight: bold;
+}
+
+/* line 43, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.row.grey {
+  background-color: #F8F8F8;
+  max-width: 600px;
+  border-bottom: 1px solid #dddbdb;
+  border-top: 1px solid #dddbdb;
+  padding-top: 10px;
+}
+
+/* line 51, /Users/ninastache/Development/unboxed/ninas_horse/app/assets/stylesheets/bootstrap_and_override.css.scss */
+.date {
+  color: #c9c7c7;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
