@@ -4,5 +4,7 @@ root to: 'pages#github'
 
 get '/horse' => 'pages#horse'
 
+get '/githubs' => 'pages#githubs'
+
 
 end
