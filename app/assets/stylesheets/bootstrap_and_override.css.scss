@@ -1,0 +1,57 @@
+.navbar.navbar-inverse {
+  background-color: #812a80; /* purple */
+  border-bottom: 1px solid #812a80;
+}
+
+.navbar.navbar-inverse .navbar-brand {
+  color:white;
+}
+
+.navbar.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+.navbar.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a {
+  background-color: #f2f2f2;
+}
+
+.navbar.navbar-inverse .navbar-nav>.active>a {
+  color: black;
+}
+
+.container .row h3.purple {
+  color: #812a80;
+}
+
+html body {
+  margin-bottom: 80px;
+}
+
+.jumbotron h1.purple {
+  color: #812a80;
+}
+
+.horse img{
+  width: 50px;
+  height: 50px;
+  margin: 0 0 10px 10px;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.row.grey {
+  background-color: #F8F8F8;
+  max-width: 600px;
+  border-bottom: 1px solid #dddbdb;
+  border-top: 1px solid #dddbdb;
+  padding-top: 10px;
+}
+
+.date {
+  color: #c9c7c7;
+}
+
+.message %a.greenish {
+    color: #7C8A97;
+}
